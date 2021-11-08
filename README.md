@@ -10,7 +10,7 @@ git clone https://github.com/ram/flask_app.git
 ``` 
 ## Docker Image build  
 ```
-docker build -t ram/flask_app .
+docker image build -t /flask_app .
 
 ```
 
