@@ -20,7 +20,7 @@ Run the container
 Create a container from the image.
 
 ```
-$ docker run --name flask-app -d -p 8080:8080 ram/flask_app
+$ docker container  run --name flask-app -d -p 8080:8080 myflask
 
 ```
 ## Now visit http://localhost:8080
